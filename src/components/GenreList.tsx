@@ -38,7 +38,6 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
                 objectFit="cover"
                 src={getCroppedImageUrl(genre.image_background)}
               />
-
               <Button
                 textAlign="left"
                 whiteSpace="normal"
