@@ -32,4 +32,5 @@ class APIClient<T> {
       .then((res) => res.data);
   };
 }
+
 export default APIClient;
